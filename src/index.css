@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  background: url('https://tailwindcss-glassmorphism.vercel.app/sunset.jpg');
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+} 
+.bs{
+  margin-top: -0.1rem !important;
+  z-index: 0;
+  position: relative;
+}
